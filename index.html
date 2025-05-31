@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List - Easy Tutorials</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>
+                To-do List 
+                <img src="images/icon.png" alt="icon">
+            </h2>
+
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add a new task...">
+                <button onclick="addTask()">
+                    <i class="fas fa-plus"></i> Add
+                </button>
+                <button onclick="clearAllTasks()">
+                    <i class="fas fa-trash"></i> Clear All
+                </button>
+            </div>
+
+            <ul id="list-container">
+                <!-- Tasks will appear here -->
+            </ul>
+        </div>  
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

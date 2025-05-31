@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #062665, #b61adc);
+    padding: 10px;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.todo-app h2 {
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.todo-app h2 img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: #edeef0;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 12px 24px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: background 0.3s ease;
+    user-select: none;
+}
+
+button:hover {
+    background: #e04e3b;
+}
+
+/* Nút Clear All khác màu */
+.row button:nth-child(3) {
+    background: #6c757d;
+}
+
+.row button:nth-child(3):hover {
+    background: #5a6268;
+}
+
+ul#list-container {
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 10px 8px 12px 40px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    line-height: 1.4;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    transition: background 0.2s;
+}
+
+ul li:hover {
+    background: #f1f1f1;
+}
+
+ul li.checked {
+    color: #777;
+    text-decoration: line-through;
+}
+
+ul li span {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    color: #555;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+}
+
+ul li span:hover {
+    background: #e0e0e0;
+}
+
+/* Thời gian task */
+ul li small {
+    display: block;
+    color: gray;
+    font-size: 12px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+/* Icon trong task */
+ul li i.fas.fa-check-circle {
+    color: green;
+    margin-right: 8px;
+}
+
+/* Icon trong nút */
+button i {
+    font-size: 14px;
+}
