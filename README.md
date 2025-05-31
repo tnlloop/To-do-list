@@ -12,8 +12,7 @@
 
 
 
-
-  ![image](https://github.com/user-attachments/assets/1d4a6c4b-aa26-487a-8051-0f517b1cf99f)**To do List** 1 dự án nho nhỏ 
+ **To do List** 1 dự án nho nhỏ 
    
 **To do List** là một công cụ trực tuyến hỗ trợ người dùng quản lý thời gian hiệu quả, tăng cường tính chủ động và cải thiện khả năng làm việc nhóm thông qua việc quản lý lịch trình và công việc một cách trực quan, khoa học và tiện lợi.
 
