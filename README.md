@@ -12,34 +12,46 @@
 
 
 
- **To do List** 1 dự án nho nhỏ 
-   
-**To do List** là một công cụ trực tuyến hỗ trợ người dùng quản lý thời gian hiệu quả, tăng cường tính chủ động và cải thiện khả năng làm việc nhóm thông qua việc quản lý lịch trình và công việc một cách trực quan, khoa học và tiện lợi.
+ # To-do List
 
-## 🚀 Mục đích chính
 
-- **Hỗ trợ người dùng quản lý thời gian hiệu quả**:  
-  Cung cấp giao diện trực quan để người dùng dễ dàng tạo, theo dõi và sắp xếp công việc, sự kiện theo ngày, tuần hoặc tháng.
+**To-do List** là một ứng dụng quản lý công việc đơn giản, giúp người dùng dễ dàng thêm, đánh dấu hoàn thành, và xóa các task hàng ngày. Ứng dụng lưu trữ dữ liệu trên trình duyệt, giúp bạn không mất công việc khi tải lại trang.
 
-- **Tăng cường tính chủ động và giảm quên lịch trình**:  
-  Tích hợp hệ thống nhắc nhở tự động giúp đảm bảo người dùng không bỏ lỡ các nhiệm vụ quan trọng.
+---
 
-- **Tạo môi trường làm việc nhóm hiệu quả**:  
-  Cho phép chia sẻ lịch trình, phân công công việc và theo dõi tiến độ cùng các thành viên khác trong nhóm.
+## Mô tả dự án
 
-- **Linh hoạt truy cập trên mọi thiết bị**:  
-  Hỗ trợ truy cập từ mọi nơi, mọi lúc trên nhiều nền tảng thiết bị khác nhau.
+To-do List là công cụ trực tuyến hỗ trợ người dùng quản lý thời gian hiệu quả, tăng cường tính chủ động và cải thiện khả năng làm việc nhóm thông qua việc quản lý lịch trình và công việc một cách trực quan, khoa học và tiện lợi.
 
-## 🛠️ Công nghệ sử dụng
-- **HTML** – xây dựng cấu trúc giao diện người dùng  
-- **CSS** – thiết kế bố cục và tạo phong cách trực quan  
-- **JavaScript** – xử lý logic, tương tác người dùng và chức năng nhắc nhở
+Ứng dụng có giao diện thân thiện, hỗ trợ:
 
-## ✨ Tính năng chính
+- Thêm công việc mới với thời gian tạo task hiển thị rõ ràng.
+- Đánh dấu công việc đã hoàn thành.
+- Xóa từng task hoặc xóa toàn bộ danh sách.
+- Dữ liệu tự động lưu trên `localStorage` của trình duyệt.
+- Hỗ trợ thao tác bằng phím Enter.
 
-- Tạo và quản lý lịch cá nhân
-- Tự động nhắc nhở công việc/sự kiện
-- Chia sẻ lịch và phân công công việc trong nhóm
-- Theo dõi tiến độ công việc
+---
+
+## Công nghệ sử dụng
+
+- HTML5
+- CSS3 (Flexbox, Responsive)
+- JavaScript (DOM manipulation, localStorage)
+- [Font Awesome](https://fontawesome.com/) – icon đẹp mắt
+
+---
+
+## Hướng dẫn sử dụng
+
+1. Mở file `index.html` bằng trình duyệt (Chrome, Firefox, Edge,...).
+2. Nhập công việc mới vào ô nhập liệu.
+3. Nhấn nút **Add** hoặc nhấn phím **Enter** để thêm task mới.
+4. Click vào task trong danh sách để đánh dấu hoàn thành (gạch ngang).
+5. Nhấn dấu **×** bên phải task để xóa task đó.
+6. Nhấn nút **Clear All** để xóa toàn bộ task (có hỏi xác nhận).
+
+---
+
 
 ## 📦
